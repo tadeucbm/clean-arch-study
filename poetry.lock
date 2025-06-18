@@ -37,6 +37,18 @@ files = [
 ]
 
 [[package]]
+name = "cerberus"
+version = "1.3.7"
+description = "Lightweight, extensible schema and data validation tool for Pythondictionaries."
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "Cerberus-1.3.7-py3-none-any.whl", hash = "sha256:180e7d1fa1a5765cbff7b5c716e52fddddfab859dc8f625b0d563ace4b7a7ab3"},
+    {file = "cerberus-1.3.7.tar.gz", hash = "sha256:ecf249665400a0b7a9d5e4ee1ffc234fd5d003186d3e1904f70bc14038642c13"},
+]
+
+[[package]]
 name = "cffi"
 version = "1.17.1"
 description = "Foreign Function Interface for Python calling C code."
@@ -948,4 +960,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "ccbcc2e353cb4f8616f72b9a59da43e10d458aa8863b5254a227e54a298fb1b5"
+content-hash = "fea7a6e00fd40342cf2c9bc5b574a7fd026b7a4663f41354880b7c94763ae2e4"
