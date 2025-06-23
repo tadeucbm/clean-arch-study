@@ -1,9 +1,10 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+
 from .settings import Settings
 
-class DBConnectionHandler:
 
+class DBConnectionHandler:
     def __init__(self) -> None:
         self.__connection_string = Settings().DATABASE_URL
         self.__engine = self.__create_database_engine()
